@@ -1,0 +1,18 @@
+{
+  "tests": "./test/e2e/*.test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "url": "http://localhost",
+      "show": false,
+      "waitForNavigation": "networkidle0"
+    }
+  },
+  "include": {
+    "I": "./test/steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "www.coches.com"
+}
