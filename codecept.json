@@ -4,9 +4,10 @@
   "output": "./output",
   "helpers": {
     "Puppeteer": {
-      "url": "http://localhost",
-      "show": false,
-      "waitForNavigation": "networkidle0"
+      "url": "http://www.coches.com",
+      "show": true,
+      "waitForNavigation": "networkidle0",
+      "waitForAction": 1000
     }
   },
   "include": {
